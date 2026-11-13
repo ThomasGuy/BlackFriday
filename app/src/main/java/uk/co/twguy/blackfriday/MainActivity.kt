@@ -1,4 +1,4 @@
-package uk.co.twguy.composetutorial
+package uk.co.twguy.blackfriday
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,14 +12,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 
-import uk.co.twguy.composetutorial.ui.theme.ComposeTutorialTheme
+import uk.co.twguy.blackfriday.ui.theme.BlackFridayTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            ComposeTutorialTheme {
+            BlackFridayTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
                         name = "Android",
@@ -42,7 +42,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    ComposeTutorialTheme {
+    BlackFridayTheme {
         Greeting("Android")
     }
 }

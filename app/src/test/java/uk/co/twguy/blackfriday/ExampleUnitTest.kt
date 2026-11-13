@@ -1,4 +1,4 @@
-package uk.co.twguy.composetutorial
+package uk.co.twguy.blackfriday
 
 import org.junit.Test
 

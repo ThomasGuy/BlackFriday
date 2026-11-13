@@ -1,4 +1,4 @@
-package uk.co.twguy.composetutorial.ui.theme
+package uk.co.twguy.blackfriday.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

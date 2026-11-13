@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Compose Tutorial"
+rootProject.name = "Black Friday"
 include(":app")
  

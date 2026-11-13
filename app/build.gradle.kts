@@ -1,16 +1,18 @@
+@file:Suppress("AvoidDuplicateDependencies")
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.compose.compiler)
 }
 
 android {
-    namespace = "uk.co.twguy.composetutorial"
+    namespace = "uk.co.twguy.blackfriday"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "uk.co.twguy.composetutorial"
+        applicationId = "uk.co.twguy.blackfriday"
         minSdk = 27
         targetSdk = 37
         versionCode = 1
